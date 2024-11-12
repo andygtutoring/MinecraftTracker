@@ -1,0 +1,72 @@
+<!-- minecraftTracker.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Daily Tracker</title>
+    <link rel="stylesheet" href="minecraftTracker.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Minecraft Daily Tracker</h1>
+    </header>
+
+    <main id="main-content"></main>
+
+    <footer>
+      <button id="home-btn">Home</button>
+      <button id="questions-btn">Questions</button>
+      <button id="archives-btn">Archives</button>
+    </footer>
+
+    <!-- Buttons -->
+    <div class="fixed-buttons">
+      <button id="buy-btn">Buy</button>
+      <button id="inspire-btn">Inspire</button>
+      <button id="collect-btn">Collect</button>
+      <button id="conversation-btn">Converse</button>
+    </div>
+
+    <!-- Overlay popups -->
+    <div id="buy-popup" class="overlay-popup">
+      <div class="popup-content">
+        <div class="grid-container">
+          <img src="images/image1.png">
+          <img src="images/image2.png">
+          <img src="images/image3.png">
+          <img src="images/image4.png">
+          <img src="images/image5.png">
+          <img src="images/image6.png">
+          <img src="images/image7.png">
+          <img src="images/image8.png">
+          <img src="images/image9.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="inspire-popup" class="overlay-popup">
+      <div class="popup-content">
+        <p>Build a medieval village.</p>
+      </div>
+    </div>
+
+    <div id="collect-popup" class="overlay-popup">
+      <div class="popup-content">
+        <p>No collected items yet. Buy something to start your collection!</p>
+      </div>
+    </div>
+
+    <!-- Conversation popup -->
+    <div id="conversation-popup" class="overlay-popup">
+      <div class="popup-content">
+        <div id="conversation-text">Hi, let's think through some ideas.</div>
+      </div>
+    </div>
+
+    <script src="minecraftTracker.js"></script>
+
+  </body>
+</html>
